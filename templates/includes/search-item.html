@@ -1,0 +1,4 @@
+<div class="row">
+    <a href="{{url_for('new', post_id=r.id)}}"><h3>{{r.title}} ({{r.distance}})</h3></a>
+    <p>{{r.text|safe}}</p>
+</div>
